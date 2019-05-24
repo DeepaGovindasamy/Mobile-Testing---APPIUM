@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-24T21:41:09Z" name="Suite" finished-at="2019-05-24T21:41:22Z" duration-ms="12956">
+    <groups>
+    </groups>
+    <test started-at="2019-05-24T21:41:09Z" name="wifiConnectivity" finished-at="2019-05-24T21:41:22Z" duration-ms="12956">
+      <class name="com.experitest.auto.WIFIConnectivityChecker">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.experitest.auto.WIFIConnectivityChecker@10db82ae]" started-at="2019-05-25T03:11:09Z" name="setUp" finished-at="2019-05-25T03:11:13Z" duration-ms="4067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="wifiConnectivity()[pri:0, instance:com.experitest.auto.WIFIConnectivityChecker@10db82ae]" started-at="2019-05-25T03:11:13Z" name="wifiConnectivity" finished-at="2019-05-25T03:11:18Z" duration-ms="5539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wifiConnectivity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.experitest.auto.WIFIConnectivityChecker@10db82ae]" started-at="2019-05-25T03:11:18Z" name="tearDown" finished-at="2019-05-25T03:11:22Z" duration-ms="3303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.experitest.auto.WIFIConnectivityChecker -->
+    </test> <!-- wifiConnectivity -->
+  </suite> <!-- Suite -->
+</testng-results>
