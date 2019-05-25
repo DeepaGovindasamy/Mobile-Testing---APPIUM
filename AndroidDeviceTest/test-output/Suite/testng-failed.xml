@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
+  <test name="testContactListSort">
+    <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
+    <classes>
+      <class name="com.experitest.auto.ContactListSorter"/>
+    </classes>
+  </test> <!-- testContactListSort -->
   <test name="wifiConnectivity">
     <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
     <classes>

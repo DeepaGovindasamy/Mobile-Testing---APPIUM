@@ -33,7 +33,7 @@ public class PickerWheelMover {
 	String REPORT_FORMAT	= "xml";
 	String TEST_NAME		= "PickerWheel";
 	String UDID			= "9886674e5258475a46";
-	String ACCESS_KEY		= "eyJ4cC51Ijo2NDM1NjY3LCJ4cC5wIjo2NDM1NjY2LCJ4cC5tIjoiTVRVMU9EWTVPVFkzTXpZd01RIiwiYWxnIjoiSFMyNTYifQ.eyJleHAiOjE4NzQwNTk2NzYsImlzcyI6ImNvbS5leHBlcml0ZXN0In0.0BWBBGMoEkentk-q-b2Q9pKABRYOPaGeGK4xcM0uTIU";
+	String ACCESS_KEY		= "<Access_key>";
 	String DRIVER_URL		= "https://cloud.seetest.io:443/wd/hub";
 
 	// Driver initialization

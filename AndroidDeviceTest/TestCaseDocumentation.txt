@@ -1,0 +1,36 @@
+***********************************************************************************************************************************************************************
+Use Case: 1
+Use Case Name: Picker_Wheel_Validation
+Use Case Description: This use case is intended to identify  a picker wheel available anywhere in the screen, scroll to the required value and select it.
+Device Type: Android
+Application: Clock
+Use Case Steps:
+1. Open the Clock application
+2. Navigate to the Timer option
+3. Check on the Picker object availability
+4. Click on the Picker Object
+5. Scroll down to the required values under Hours:Minutes:Seconds. The selected value should be set properly.
+***********************************************************************************************************************************************************************
+Use Case: 2
+Use Case Name: Contacts_Sort_Validation
+Use Case Description: This use case is intended to validate whether the contact details are getting sorted as expecting either with "First Name" or "Last Name" option.
+Device Type: Android
+Application: Contacts
+Use Case Steps:
+1. Open the Contacts option available in the device
+2. Click on the option and select the "Settings" option.
+3. Select the "Sort By" option. And choose "First Name"
+4. Navigate back to the  Contact Details screens and validate whether the names are  sorted based on there First Name
+5. Repeat step 2-4 with the option "Last Name".
+***********************************************************************************************************************************************************************
+Use Case: 3
+Use Case Name: WIFI_Connectivity_Validation
+Use Case Description: This use case is intended to check on the WIFI connectivity on multiple devices and capture the UDID of the device which connected to WIFI, Capture the Networ Provide details and Disable the turn off the connection.
+Device Type: Android
+Application: WIFI
+Use Case Steps:
+1. Establish multpile Mobile device connections
+2. Check the WIFI connectivity status of the device
+3. Capture the UDID of the device with WIFI connected
+4. Switch of the WIFI on thet Device
+***********************************************************************************************************************************************************************

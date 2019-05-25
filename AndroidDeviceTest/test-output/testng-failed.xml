@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
-  <test name="wifiConnectivity">
-    <parameter name="deviceQuery" value="@os=&#039;android&#039;"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
     <classes>
-      <class name="com.experitest.auto.WIFIConnectivityChecker"/>
+      <class name="com.experitest.auto.PickerWheelMover"/>
     </classes>
-  </test> <!-- wifiConnectivity -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
